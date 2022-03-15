@@ -15,6 +15,6 @@ client.on("messageCreate", message => {
     }
 
     if (message.content == "!prova") {
-        message.channel.send("sciao belo te puzza il pisello")
+        message.channel.send("sciao")
     }
 })
