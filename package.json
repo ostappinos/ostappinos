@@ -1,6 +1,6 @@
 {
   "name": "ostappinos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,5 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0"
-  },
-  "engines":{
-    "node": "16.10.x"
   }
 }
