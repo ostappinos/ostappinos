@@ -6,7 +6,7 @@ const client = new Discord.Client(
 client.login(process.env.token)
 
 client.on("ready", () => {
-    console.log("Ostappinos ONLINE")
+    console.log("OstaBot ONLINE")
 })
 
 client.on("messageCreate", message => {
@@ -14,7 +14,7 @@ client.on("messageCreate", message => {
         message.channel.send("Ciao a tutti!")
     }
 
-    if (message.content == "!prova") {
-        message.channel.send("sciao")
+    if (message.content == "!regole") {
+        message.channel.send("ciao")
     }
 })
